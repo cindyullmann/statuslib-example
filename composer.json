@@ -1,5 +1,5 @@
 {
-    "name": "laminas-api-tools/statuslib-example",
+    "name": "cindyullmann/statuslib-example",
     "description": "Library for use with Laminas API Tools documentation examples",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -25,18 +25,15 @@
         }
     },
     "require": {
-        "php": "^7.3 || ~8.0.0",
-        "laminas-api-tools/api-tools-configuration": "^1.4",
-        "laminas/laminas-config": "^3.4",
-        "laminas/laminas-db": "^2.12",
+        "php": "^7.3 || ~8.0.0 || ^8.1",
+        "laminas-api-tools/api-tools-configuration": "^1.6",
+        "laminas/laminas-config": "^3.9",
+        "laminas/laminas-db": "^2.13",
         "laminas/laminas-hydrator": "^1.1 || ^2.0 || ^3.0 || ^4.0",
-        "laminas/laminas-paginator": "^2.10",
-        "laminas/laminas-stdlib": "^2.7.7 || ^3.0.1",
-        "laminas/laminas-zendframework-bridge": "^1.0",
-        "ramsey/uuid": "^2.8"
-    },
-    "require-dev": {
-        "laminas/laminas-coding-standard": "~2.3.0"
+        "laminas/laminas-paginator": "^2.12",
+        "laminas/laminas-stdlib": "^3.19",
+        "laminas/laminas-zendframework-bridge": "^1.8",
+        "ramsey/uuid": "~5"
     },
     "autoload": {
         "psr-4": {
